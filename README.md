@@ -1,4 +1,4 @@
-# github.io
+# jkaphammer.github.io
 
 
 This is for Web Assignment 1.
