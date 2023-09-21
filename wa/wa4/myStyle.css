@@ -1,6 +1,6 @@
 /* General styles - put these straight into your stylesheet */
 
-body {
+body .kirbyCard {
     margin: 0;
   }
   
@@ -17,7 +17,7 @@ body {
   .card */
 
 /* Rulesets to be matched up with selectors */
-.card {
+.kirbyCard {
     width: 35em;
     height: 22em;
     margin: 5em auto;

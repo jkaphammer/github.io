@@ -17,7 +17,7 @@ body {
   .card */
 
 /* Rulesets to be matched up with selectors */
-.card {
+.card{
     width: 35em;
     height: 22em;
     margin: 5em auto;
@@ -57,7 +57,8 @@ body {
 
   h2{
     font-size: 2em;
-    line-height: 15px;
+    line-height: 1.5ex;
+    padding: .5em 0em;
   }
 
   footer p{
@@ -69,4 +70,19 @@ body {
 
     padding: 1em;
     color: antiquewhite;
+  }
+
+  .kirbyCard {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: lightpink;
+    border: 0.2em solid blanchedalmond;
+    border-radius: 1.5em;
+  }
+
+  .kirbyCard img{
+    max-height: 100%;
+    float: right;
+    width: 30%;
   }
