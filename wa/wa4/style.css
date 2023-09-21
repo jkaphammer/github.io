@@ -17,6 +17,20 @@ body {
   .card */
 
 /* Rulesets to be matched up with selectors */
+.kirbyCard {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: lightpink;
+    border: 0.2em solid blanchedalmond;
+    border-radius: 1.5em;
+  }
+
+  .kirbyCard img{
+    max-height: 100%;
+    float: right;
+    width: 30%;
+  }
 .card{
     width: 35em;
     height: 22em;
@@ -72,17 +86,4 @@ body {
     color: antiquewhite;
   }
 
-  .kirbyCard {
-    width: 35em;
-    height: 22em;
-    margin: 5em auto;
-    background-color: lightpink;
-    border: 0.2em solid blanchedalmond;
-    border-radius: 1.5em;
-  }
 
-  .kirbyCard img{
-    max-height: 100%;
-    float: right;
-    width: 30%;
-  }
