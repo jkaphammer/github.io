@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    display: inline-block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+}
+.overylay img {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+#news-txt {
+    top: 10mm;
+    left: 170mm;
+    width:130px;
+    height:50px;
+    opacity: .7;
+    color: aliceblue;
+    background-color: red;
+    border: 5px solid darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: auto;
+    display: table;
+}
+#news-score {
+    color:aliceblue;
+    background-color: darkred;
+    margin: auto;
+    display: table;
+    width: 80px;
+    height:auto;
+    text-align: center;
+    transform: translate(310px, 470px);
+}
+#lakers {
+    color:aliceblue;
+    background-color: goldenrod;
+    margin: auto;
+    display: table;
+    width: 80px;
+    height:auto;
+    text-align: center;
+    transform: translate(390px, 470px);
+}
+#surround-score{
+    background-color: rgb(235, 235, 235);
+    width: 250px;
+    height: 70px;
+    transform: translate(260px, 460px);
+    opacity: .9;
+    border:5px solid darkgray;
+    margin: auto;
+}
