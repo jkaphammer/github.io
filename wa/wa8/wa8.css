@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(136, 204, 241);
+    font-family: 'Dosis', sans-serif;
+}
+h1{
+    color:rgb(34, 44, 85);
+    font-weight: 500;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(192, 223, 240);
+    font-weight: 300;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(34, 44, 85);
+    font-weight: 300;
+}
+
+.narspin:hover{
+    animation: narspin 2s infinite linear;
+
+}
+.ocean{
+    animation: oceanMove 10s infinite linear;
+    height: 500%;
+    width: 500%;
+    top: 50vh;
+    left: 0;
+
+}
+img{
+    width:60%;
+    height: 60%;
+}
+
+#red-ball{
+    background-color: rgb(91, 29, 226);
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:50vh;
+    transition: width 2s, height 4s;
+
+}
+#red-ball:hover{
+    width: 50px;
+}
+
+@keyframes narspin {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+}
+@keyframes oceanMove {
+    from{
+        transition: translateX(0vw);
+    }
+    to{
+        transform: translateX(100vw);
+    }
+}
