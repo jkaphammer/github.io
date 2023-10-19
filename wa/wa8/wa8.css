@@ -30,33 +30,33 @@ nav a{
     animation: narspin 2s infinite linear;
 
 }
-.ocean{
-    animation: oceanMove 10s infinite linear;
-    height: 500%;
-    width: 500%;
-    top: 50vh;
-    left: 0;
-
-}
 img{
     width:60%;
     height: 60%;
 }
-
-#red-ball{
-    background-color: rgb(91, 29, 226);
-    width: 30px;
-    height:30px;
-    border-radius: 50%;
+.ocean{
     position: absolute;
     left:5vw;
     top:50vh;
-    transition: width 2s, height 4s;
+    animation: oceanMove 5s infinite;
+    animation-direction: reverse;
 
 }
-#red-ball:hover{
-    width: 50px;
+#oceanCont{
+    width: 100vw;
 }
+.star{
+    width: 10%;
+    height:20%;
+    position: absolute;
+    left:5vw;
+    top:5vh;
+    transition: 4s;
+}
+.star:hover{
+    width: 20em;
+}
+
 
 @keyframes narspin {
     from {
@@ -68,7 +68,7 @@ img{
 }
 @keyframes oceanMove {
     from{
-        transition: translateX(0vw);
+        transform: translateX(0vw);
     }
     to{
         transform: translateX(100vw);
