@@ -1,0 +1,86 @@
+html{
+    /* floral white - FFBF4 */
+    background-color: rgb(255, 251, 244);
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+    position: sticky;
+    color: rgb(25, 49, 67);
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.intro{
+    /* prussian blue - 193142 */
+    color: rgb(25, 49, 67);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+#title{
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 4vw;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    /* padding: .2em; */
+    background-color: rgb(183, 231, 255);
+    border-radius: .5em;
+    color: rgb(25, 49, 67);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    max-height: 60px; /* Set a max height for the box, the initial visible height */
+    overflow: hidden; /* Hide any content that exceeds the max height */
+    transition: max-height 0.3s; /* Add a transition for max-height changes */
+    margin-bottom: 1em; /* Add margin to create spacing between boxes */
+
+}
+
+.boxes h3{
+    margin-left: 1em;
+}
+.boxes h5{
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 1.5em;
+}
+.display-on-hover{
+    padding: 1em;
+}
+.boxes:hover{
+    max-height: 1000em; /* Expand the box to reveal content on hover */
+}
+
+#headingCont{
+    display: flex;
+    align-items: center; /* Vertically align the items */
+    position: sticky;
+}
+#headingCont img{
+    flex: 0 0 auto; /* Prevent the image from growing or shrinking */
+    margin-right: .5em; /* Add some spacing between the image and heading */
+    width: 8em;
+    height: 50%;
+    margin-left: 2em;
+}
+#headingCont h1{
+    flex: 1;
+    top: 20em;
+}
+.artistTitle{
+    font-weight: 500;
+    text-decoration: underline;
+}
+.artistType{
+    font-style: italic;
+}
