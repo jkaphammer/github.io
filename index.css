@@ -84,3 +84,23 @@ footer{
 .artistType{
     font-style: italic;
 }
+@media screen and (max-width: 414px){
+    #headingCont{
+        display: block;
+        text-align: center;
+    }
+    #headingCont h1{
+        flex: 0;
+        font-size: 30px;
+    }
+    #headingCont img{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    #box2 h3, #box3 h3{
+        font-size: 17px;
+    }
+    .intro h4, .intro h5{
+        font-size: 20px;
+    }
+}
