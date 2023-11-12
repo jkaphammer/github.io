@@ -1,11 +1,13 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  color:darkslategray;
 }
 
 body {
   width: 640px;
   margin: 0 auto;
+  background-color: antiquewhite;
 }
 
 .full-img {
@@ -26,7 +28,7 @@ body {
 
 button {
   border: 0;
-  background: rgba(150,150,150,0.6);
+  background: rgba(12, 66, 36, 0.6);
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
   position: absolute;
