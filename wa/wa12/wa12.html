@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wa12.css">
+    <title>WA 12 - Quote Machine 2</title>
+</head>
+<body>
+    <div class="app">
+        <header>Boredom Buster</header>
+        <section class="quotes">
+          <div class="quote-text" id="js-quote-text"></div>
+        </section>
+        <section class="controls" >
+          <button type="button" id="js-new-quote" class="new-quote button">
+            Generate something to do!
+          </button>
+          <!-- <button type="button" id="js-tweet" class="twitter button">
+            Show me the answer!
+          </button> -->
+          <!-- "education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"] -->
+          <form action="#">
+            <label for="act">Activity Type</label>
+            <select name="activity" id="act" size="4">
+              <option value="none">Surpise me!</option>
+              <option value="education">Education</option>
+              <option value="recreational">Recreational</option>
+              <option value="social">Social</option>
+              <option value="diy">DIY</option>
+              <option value="charity">Charity</option>
+              <option value="cooking">Cooking</option>
+              <option value="relaxation">Relaxation</option>
+              <option value="music">Music</option>
+              <option value="busywork">Busywork</option>
+            </select>
+      </form>
+          <!-- <a class="answer button" id="js-tweet" target="_blank" rel="noreferrer">Show me the answer!</a> -->
+        </section>
+      </div>
+      <img src="nyancat-long.gif" alt="nyan cat">
+    <p id="extension">For my extension, the user is able to select what activity type they would like to generate.</p>
+    <script src="wa12.js"></script>
+</body>
+</html>
