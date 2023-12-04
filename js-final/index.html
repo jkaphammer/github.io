@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/mobile-phone-snake.png" type="image/x-icon">
+    <title>Phone Snake</title>
+</head>
+<body>
+    <div class="container" id="snake-title">
+        <h1>Phone Snake</h1>
+        <div id="tutorial">Hi! Use the arrow keys to move the snake over the numbers you want.
+            When he eats a number, it will be added to the phone number form. When you are done entering your phone number, make the snake eat the submit button!
+            Watch out, if you mess up, you will have to either hit a wall or make the snake eat himself to reset.
+        </div>
+    </div>
+    <div class="form-container">
+        <form>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone" maxlength="14"><br>
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+
+    <canvas width="400" height="400" id="game"></canvas>
+    <footer>Created by Jenn Kaphammer for ATLS-2200 <br>
+        mobile phone by Lagot Design from <a href="https://thenounproject.com/browse/icons/term/mobile-phone/" target="_blank" title="mobile phone Icons">Noun Project</a> (CC BY 3.0)<br>
+        Snake code partially based off of Steven Lambert on GitHub's <a href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4">"Basic Snake HTML and JavaScript Game"</a> (CC0 1.0 Universal)
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
