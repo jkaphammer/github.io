@@ -4,7 +4,7 @@ html, body {
   }
 
   body {
-    background: antiquewhite;
+    background: #A9B6DA; /*powder blue*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,8 @@ html, body {
     flex-direction: column;
   }
   canvas {
-    border: 1px solid white;
-    background-color: black;
+    border: 1px solid black;
+    background-color: #1C2541; /* space cadet */
     display: block;
     margin: 0 auto;
   }
