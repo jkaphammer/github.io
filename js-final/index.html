@@ -5,27 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/mobile-phone-snake.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title>Phone Snake</title>
 </head>
 <body>
-    <div class="container" id="snake-title">
-        <h1>Phone Snake</h1>
-        <div id="tutorial">Hi! Use the arrow keys to move the snake over the numbers you want. <br>
-            When he eats a number, it will be added to the phone number form. When you are done entering your phone number, make the snake eat the submit button! <br>
-            Watch out, if you mess up, you will have to either hit a wall or make the snake eat himself to reset.
+     
+    <div class="big-container">
+        <div class="container" id="snake-title">
+            <div id="tutorial">
+                <h1>phone snake</h1>
+                <h2>enter your 10-digit phone number</h2>
+                <div id="move-container">
+                    
+                <h3 id="move">move:</h3> 
+                <img id="arrows" src="img/arrowkeybr-t.png" alt="keyboard arrow keys">
+                </div>
+                <p>if the snake hits a wall or itself, it will die and be replaced with a clone. enter the wrong number? too bad.</p>
+                <p>the phone number will automatically submit after you reach 10-digits in the form, so don't mess this up.</p>
+            </div>
         </div>
-    </div>
-    <div class="form-container">
-        <form>
-            <label for="phoneForm">Phone Number: </label>
-            <input type="tel" id="phone" name="phone" maxlength="10" pattern="\d{10}" readonly><br>
-            <input type="submit" value="Submit">
-          </form>
-    </div>
+        <div class="form-container">
+            <form>
+                <label for="phoneForm">Phone Number: </label>
+                <input type="tel" id="phone" name="phone" maxlength="10" pattern="\d{10}" readonly><br>
+                <!-- <input type="submit" value="Submit"> -->
+            </form>
+        </div>
 
-    <canvas width="400" height="400" id="game"></canvas>
+        <canvas width="400" height="400" id="game"></canvas>
+    </div>
     <footer>Created by Jenn Kaphammer for ATLS-2200 Final Fall 2023<br>
         mobile phone by Lagot Design from <a href="https://thenounproject.com/browse/icons/term/mobile-phone/" target="_blank" title="mobile phone Icons">Noun Project</a> (CC BY 3.0)<br>
+        arrow keys by Thomas Radwanski from <a href="https://thenounproject.com/browse/icons/term/arrow-keys/" target="_blank" title="arrow keys Icons">Noun Project</a> (CC BY 3.0) <br>
         Snake code partially based off of Steven Lambert on GitHub's <a href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4">"Basic Snake HTML and JavaScript Game"</a> (CC0 1.0 Universal)
     </footer>
     <script src="index.js"></script>
