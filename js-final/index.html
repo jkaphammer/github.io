@@ -24,15 +24,16 @@
                 </div>
                 <p>if the snake hits a wall or itself, it will die and be replaced with a clone. enter the wrong number? too bad.</p>
                 <p>the phone number will automatically submit after you reach 10-digits in the form, so don't mess this up.</p>
+                <div class="form-container">
+                    <form>
+                        <label for="phone">Phone Number: </label>
+                        <input type="tel" id="phone" name="phone" maxlength="10" pattern="\d{10}" readonly><br>
+                        <!-- <input type="submit" value="Submit"> -->
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="form-container">
-            <form>
-                <label for="phone">Phone Number: </label>
-                <input type="tel" id="phone" name="phone" maxlength="10" pattern="\d{10}" readonly><br>
-                <!-- <input type="submit" value="Submit"> -->
-            </form>
-        </div>
+
 
         <canvas width="400" height="400" id="game"></canvas>
     </div>
