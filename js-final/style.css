@@ -1,11 +1,11 @@
-html, body {
+/* html, body {
     height: 100%;
     margin: 0;
     font-family: 'Raleway', sans-serif;
   }
 
   body {
-    background: #7E92C9; /*vista blue*/
+    background: #7E92C9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,27 +29,17 @@ html, body {
 }
   canvas {
     border: 1px solid black;
-    background-color: #1C2541; /* space cadet */
+    background-color: #1C2541;
     margin: auto;  
     text-align: center;
     margin-top: 7%;
     flex: 1;
     
-    /* margin: auto; 
-    margin-top: 4.375em; */
-    /* margin-right: 500px; */
-    /* align-self: flex-start; */
-    /* margin-bottom: 55vh;
-    margin-top: 60vh;
-    text-align: center; */
-    /* margin-left: 60%;
-    margin-top: -100em;
-    /* flex: 1; */
-  }
+  } */
 
-  #snake-title{
+  /* #snake-title{
     text-align: center;
-    color: #340915; /*black bean*/
+    color: #340915; 
     margin-top: 2em;
   }
   #snake-title h1{
@@ -57,27 +47,24 @@ html, body {
     margin-bottom: 1em;
   }
   #tutorial {
-    /* float: left;
-    margin-right: 100%;
-    margin-top: 10%; */
-    padding: 10px; /*padding and height set to px to match canvas size*/
+
+    padding: 10px;
     height: auto;
-    background-color: #C6CFE7; /* Lavender web */
+    background-color: #C6CFE7;
     text-align: center;
     border: 2px solid #C6CFE7;
     border-radius: 25px;
     width: 50%;
-    /* margin-left: 1em; */
     flex: 1;
   
-  }
+  } */
   /* #bigcontainer{
     display: grid;
     grid-template-rows: 50% 50%;
     gap: 1em;
     align-items: center;
   } */
-  #title {
+  /* #title {
     margin-bottom: 1em; 
   }
   
@@ -106,6 +93,96 @@ html, body {
   footer{
     margin-bottom: 10em;
     font-size: small;
+  } */
+
+  /* .form-container{
+    background-color: #C6CFE7;
+    width: 20%;
+    height: 8%;
+    float: right;
+    text-align: center;
+    margin-right: 40em;
+    margin-top: 1em;
+    border: solid transparent;
+    border-radius: 20px;
+  } */
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  body {
+    background: #7E92C9; /*vista blue*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  canvas {
+    border: 1px solid black;
+    background-color: #1C2541; /* space cadet */
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-left: 55%;
+    margin-top: -70%;
+    
+  }
+
+  #snake-title{
+    text-align: center;
+    color: #340915; /*black bean*/
+    margin-top: 2em;
+  }
+  #snake-title h1{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  #tutorial {
+    padding: 10px;
+    float: left;
+    margin-right: 50%;
+    margin-top: 10%;
+    height: auto;
+    background-color: #C6CFE7; /* Lavender web */
+    text-align: center;
+    border: 2px solid #C6CFE7;
+    border-radius: 25px;
+  
+  }
+  #bigcontainer
+  #title {
+    margin-bottom: 1em; 
+  }
+  
+  #move-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #arrows {
+    width: 20%;
+    margin-left: 1em;
+  }
+  
+  #move {
+    margin-right: 1em;
+  }
+  
+  #tutorial p {
+    margin-top: 1em;
+  }
+  h1{
+    margin-top: 2em; 
+    margin-bottom: 1em;
+  }
+  footer{
+    font-size: small;
+    margin-top: 2em;
+    text-size-adjust: 10%;
   }
 
   /* .form-container{
