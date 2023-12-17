@@ -106,6 +106,18 @@
     border: solid transparent;
     border-radius: 20px;
   } */
+  /*small screenm*/
+  @media screen and (max-width: 599px) and (max-height: 620px) {
+    canvas {
+        top: 25%; /* Adjust this value as needed */
+        left: 55%; /* Adjust this value as needed */
+    }
+}@media screen and (min-width: 600px) {
+  canvas {
+      top: 25%; /* Adjust this value as needed */
+      left: 55%; /* Adjust this value as needed */
+  }
+}
   html, body {
     height: 100%;
     margin: 0;
@@ -126,8 +138,11 @@
     background-color: #1C2541; /* space cadet */
     /* margin: 0 auto; */
     text-align: center;
-    margin-left: 55%;
-    margin-top: -70%;
+    position: absolute;
+    /* top: 25%;
+    left: 55%; */
+    /* margin-left: 55%;
+    margin-top: -70%; */
     
   }
 
